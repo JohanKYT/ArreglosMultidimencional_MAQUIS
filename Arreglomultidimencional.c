@@ -15,6 +15,9 @@ int main()
     printf("Ingrese el numero de columnas para la matriz: ");
     scanf("%d", &m);
     // Escaneamos el numero de filas de las matrices
-  
+    int ArreMulti[n][m][numMatrices];
+
+   
+
     return 0;
 }
