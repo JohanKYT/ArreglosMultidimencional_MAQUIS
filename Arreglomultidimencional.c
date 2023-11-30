@@ -19,7 +19,24 @@ int main()
 
     for (int k = 0; k < numMatrices; k++)
     {
-        
+        printf("\nMatriz %d:\n", k + 1);
+        for (int i = 0; i < n; i++)
+        {
+            printf("\n");
+            for (int j = 0; j < m; j++)
+            {
+                if (k == numMatrices - 1)
+                {
+                    ArreMulti[i][j][k] = 1;
+                }
+                else
+                {
+                    ArreMulti[i][j][k] = 0;
+                }
+                printf("%d\t", ArreMulti[i][j][k]);
+            }
+        }
+        printf("\n");
     }
 
     return 0;
