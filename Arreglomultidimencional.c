@@ -27,11 +27,11 @@ int main()
             {
                 if (k == numMatrices - 1)
                 {
-                    ArreMulti[i][j][k] = 1;
+                    ArreMulti[i][j][k] = 1; //Ponemos que si son antes de la ultima la matrices este llena de 0
                 }
                 else
                 {
-                    ArreMulti[i][j][k] = 0;
+                    ArreMulti[i][j][k] = 0; //Ponemos que si es la ultima la matricz este la llena de 1
                 }
                 printf("%d\t", ArreMulti[i][j][k]);
             }
