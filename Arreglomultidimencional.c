@@ -17,7 +17,10 @@ int main()
     // Escaneamos el numero de filas de las matrices
     int ArreMulti[n][m][numMatrices];
 
-   
+    for (int k = 0; k < numMatrices; k++)
+    {
+        
+    }
 
     return 0;
 }
